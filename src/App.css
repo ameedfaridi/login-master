@@ -288,7 +288,12 @@ hr {
     font-size: 18px;
     margin: 5px 5px;
   }
+  .home {
+    position: absolute;
+    top: 80%;
+  }
 }
+
 @media only screen and (max-width: 1200px) {
   .table {
     width: 70%;
@@ -299,6 +304,21 @@ hr {
   .search-field input,
   .search-field select {
     width: 100px;
+  }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
   }
 }
 
@@ -318,6 +338,21 @@ hr {
   .search-field input,
   .search-field select {
     width: 70px;
+  }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
   }
 }
 
@@ -344,6 +379,21 @@ hr {
   }
   .add-form label {
     width: 100px;
+  }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
   }
 }
 
@@ -373,6 +423,21 @@ hr {
     top: 45%;
     left: 10%;
   }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -389,6 +454,10 @@ hr {
   }
   .person {
     font-size: 15px;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
   }
 }
 
@@ -428,5 +497,86 @@ hr {
     top: 62%;
     width: 90%;
     right: 5%;
+  }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .table {
+    position: absolute;
+    top: 100%;
+    width: 60%;
+    right: 5%;
+    left: 0;
+  }
+  .table td {
+    padding: 5px 0;
+    font-size: 90%;
+  }
+  .search-field {
+    position: absolute;
+    top: 82%;
+    left: 35%;
+    width: 100px;
+  }
+  .stu-nav-right {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    left: 10%;
+  }
+  .logo {
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 1%;
+    left: 7%;
+    right: 10%;
+  }
+  .main-sidebar {
+    width: 300px;
+    height: 180px;
+    border-bottom: 1px solid black;
+    margin-left: 25px;
+    position: absolute;
+    top: 33%;
+    left: 0%;
+  }
+  .add-form {
+    position: absolute;
+    top: 80%;
+    left: 0;
+  }
+  .add-form label {
+    margin: 10px 0;
+  }
+  .container {
+    position: absolute;
+    top: 30%;
+  }
+  .create-account {
+    position: absolute;
+    top: 0%;
+  }
+  .links {
+    margin-bottom: -20%;
+  }
+  .home {
+    position: absolute;
+    top: 80%;
   }
 }
